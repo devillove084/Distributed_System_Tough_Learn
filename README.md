@@ -15,3 +15,8 @@
 * ModernC++
   * [C++ Concurrency in Action](https://github.com/huyubing/books-pdf/blob/master/C%2B%2B%20Concurrency%20in%20Action.pdf) 这里给出了现代c++中，给出的常用新特性用法，以及如何设计并发数据结构，建议和上面的Rust相互对应进行学习，有很多异曲同工甚至一摸一样的设计思路。这里是[中文版](https://github.com/xiaoweiChen/CPP-Concurrency-In-Action-2ed-2019)。
 
+* Others
+  * [NUMA](http://cenalulu.github.io/linux/numa/) 架构在多核时代已经俨然成为主流，但是目前的数据结构设计，算法设计，软件设计都没有较好利用；
+  * [SIMD](https://zhuanlan.zhihu.com/p/55327037) 单指令多数据流，可以实现空间上并行性的技术，提高并行度；
+  * [SkipList](https://nan01ab.github.io/2019/08/FAST-and-S3.html) 是比较优秀的数据结构设计，但是读写并没有很好利用多核带来的优势，所以业界有一些很好的尝试；
+  * [Prefech 预读取](http://home.eng.iastate.edu/~zzhang/cpre581/lectures/Lecture17-1p.pdf) 这实际上是利用数据的局部性来用空间换时间的一种办法，在很多软件上都是成熟的案例
